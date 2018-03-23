@@ -1,0 +1,129 @@
+html{
+	text-align:center;
+	background-image:url("../image/back.png")
+}
+body{
+	text-align:center;
+}
+
+#container{
+	margin:0 auto;
+	width:1000px;
+	background-color:#ffffff;
+}
+
+#footer{ 
+	margin:0 auto;
+	width : 1000px;
+	clear : both;
+	background:#000000;
+	color:#ffffff; 
+}
+
+
+
+/*- drop_down2 ---------------------------------- */
+#menu{  
+  margin: 0;  
+  padding: 0;  
+  width: ***;  
+}  
+  
+#menu ul{  
+  list-style-type: none;  
+  margin: 0;  
+  padding: 0;  
+}  
+  
+#menu li{  
+  float: left;  
+  width: 111px;  
+  margin: 0;  
+  padding: 0;
+  list-style-type: none;  
+}  
+  
+#menu a{  
+  text-align: center;
+  vertical-align: bottom;
+  text-decoration:none; 
+  display:block;  
+  padding: 0;  
+  width: 111px;
+  height: 18px;  
+  background-image: url(../image/menu.png);  
+  color: black;
+  font-family:arial, sans-serif;
+  font-size:15px;
+  font-weight:bold;  
+}  
+  
+#menu a:hover{  
+	background-position: top right;	 
+	color: black;  
+}  
+
+
+/*- index用 ------ */
+div.blocka {
+   float: left;
+   width: 260px;
+}
+div.blockb {
+	float: left;
+	width: 240;
+}
+div.blockc {
+   float: right;
+}
+
+/*- profeccer用 ----- */
+div.profA{
+	float: left;
+	width: 400px;
+}
+div.profB{
+	text-align:left;
+	float: left;
+	width: 600px;
+}
+
+/*- lab用 ----- */
+div.labA{
+	float: left;
+	width: 500px;
+}
+div.labB{
+	text-align:left;
+	float: left;
+	width: 500px;
+}
+
+/*- 左寄せのみ用 ----- */
+div.left{
+	text-align:left;
+}
+/*- 右寄せのみ用 ----- */
+
+/*- contents用 ----- */
+div.contentsA{
+	float: left;
+	width: 500px;
+}
+div.contentsB{
+	text-align:left;
+	float: left;
+	width: 450px;
+}
+div.contentsC{
+	text-align:centor;
+	float: left;
+	width: 1000px;
+}
+
+/*- member用 ----- */
+div.member{
+	text-align:left;
+	float: left;
+	width: 250px;
+}
